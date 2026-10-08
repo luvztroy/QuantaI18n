@@ -1,0 +1,60 @@
+{
+  "updated": "2026-10-08T17:31:20Z",
+  "languages": {
+    "ar": {
+      "sha": "3af91a5de343b177",
+      "keys": 423,
+      "file": "ar.json"
+    },
+    "be": {
+      "sha": "bba9a1e9164f962e",
+      "keys": 423,
+      "file": "be.json"
+    },
+    "en": {
+      "sha": "4943122a3edfd3ed",
+      "keys": 447,
+      "file": "en.json"
+    },
+    "fa": {
+      "sha": "ca4cb046384e7904",
+      "keys": 422,
+      "file": "fa.json"
+    },
+    "ja-raw": {
+      "sha": "84fb4f91f3c16b7a",
+      "keys": 423,
+      "file": "ja-raw.json"
+    },
+    "pt-br": {
+      "sha": "9d6dd191717de2cd",
+      "keys": 423,
+      "file": "pt-br.json"
+    },
+    "qicui": {
+      "sha": "3d7c5df1b96067e2",
+      "keys": 423,
+      "file": "qicui.json"
+    },
+    "ru": {
+      "sha": "98202e0ae77ebe16",
+      "keys": 423,
+      "file": "ru.json"
+    },
+    "uk": {
+      "sha": "dba65caa076fdbf0",
+      "keys": 423,
+      "file": "uk.json"
+    },
+    "uz": {
+      "sha": "eef49c6cf2fc0623",
+      "keys": 423,
+      "file": "uz.json"
+    },
+    "zh-hans-raw": {
+      "sha": "c9fc4485ddbd0692",
+      "keys": 423,
+      "file": "zh-hans-raw.json"
+    }
+  }
+}
