@@ -1,64 +1,59 @@
 {
-  "updated": "2026-10-08T18:22:02Z",
+  "updated": "2026-10-08T18:24:47Z",
   "languages": {
     "ar": {
-      "sha": "3af91a5de343b177",
-      "keys": 423,
+      "sha": "73e7aab1c71a7159",
+      "keys": 279,
       "file": "ar.json"
     },
     "be": {
-      "sha": "bba9a1e9164f962e",
-      "keys": 423,
+      "sha": "9669e2e586385360",
+      "keys": 279,
       "file": "be.json"
     },
     "en": {
-      "sha": "a6f5c573aa726284",
-      "keys": 467,
+      "sha": "5af97004839f4f6f",
+      "keys": 279,
       "file": "en.json"
     },
     "fa": {
-      "sha": "ca4cb046384e7904",
-      "keys": 422,
+      "sha": "1c9508d46d09f938",
+      "keys": 279,
       "file": "fa.json"
     },
     "ja-raw": {
-      "sha": "84fb4f91f3c16b7a",
-      "keys": 423,
+      "sha": "bdf55dcdfaa75e67",
+      "keys": 279,
       "file": "ja-raw.json"
     },
-    "manifest": {
-      "sha": "ddc93483f370471c",
-      "keys": 2,
-      "file": "manifest.json"
-    },
     "pt-br": {
-      "sha": "9d6dd191717de2cd",
-      "keys": 423,
+      "sha": "0cd95d99928a564f",
+      "keys": 279,
       "file": "pt-br.json"
     },
     "qicui": {
-      "sha": "3d7c5df1b96067e2",
-      "keys": 423,
+      "sha": "84df5344ff2ccab9",
+      "keys": 279,
       "file": "qicui.json"
     },
     "ru": {
-      "sha": "98202e0ae77ebe16",
-      "keys": 423,
+      "sha": "3011d6d1b3f42386",
+      "keys": 279,
       "file": "ru.json"
     },
     "uk": {
-      "sha": "dba65caa076fdbf0",
-      "keys": 423,
+      "sha": "689ea6c064146f16",
+      "keys": 279,
       "file": "uk.json"
     },
     "uz": {
-      "sha": "eef49c6cf2fc0623",
-      "keys": 423,
+      "sha": "797a028f39914961",
+      "keys": 279,
       "file": "uz.json"
     },
     "zh-hans-raw": {
-      "sha": "c9fc4485ddbd0692",
-      "keys": 423,
+      "sha": "2272ff416373c9d0",
+      "keys": 279,
       "file": "zh-hans-raw.json"
     }
   }
