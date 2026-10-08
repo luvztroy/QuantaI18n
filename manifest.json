@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T17:31:20Z",
+  "updated": "2026-10-08T18:22:02Z",
   "languages": {
     "ar": {
       "sha": "3af91a5de343b177",
@@ -12,8 +12,8 @@
       "file": "be.json"
     },
     "en": {
-      "sha": "4943122a3edfd3ed",
-      "keys": 447,
+      "sha": "a6f5c573aa726284",
+      "keys": 467,
       "file": "en.json"
     },
     "fa": {
@@ -25,6 +25,11 @@
       "sha": "84fb4f91f3c16b7a",
       "keys": 423,
       "file": "ja-raw.json"
+    },
+    "manifest": {
+      "sha": "ddc93483f370471c",
+      "keys": 2,
+      "file": "manifest.json"
     },
     "pt-br": {
       "sha": "9d6dd191717de2cd",
