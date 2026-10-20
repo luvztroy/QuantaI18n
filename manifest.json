@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T05:43:51Z",
+  "updated": "2026-10-20T05:45:31Z",
   "languages": {
     "ar": {
       "sha": "b6765dbc92e08047",
@@ -27,7 +27,7 @@
       "file": "ja-raw.json"
     },
     "pt-br": {
-      "sha": "27bc2f13bcd29287",
+      "sha": "4fd90951e2b70288",
       "keys": 348,
       "file": "pt-br.json"
     },
@@ -37,7 +37,7 @@
       "file": "qicui.json"
     },
     "ru": {
-      "sha": "d37f2ac418061d0b",
+      "sha": "60428b5bd0c6fb82",
       "keys": 348,
       "file": "ru.json"
     },
