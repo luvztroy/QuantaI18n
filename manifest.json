@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-20T05:57:37Z",
+  "updated": "2026-10-20T05:58:08Z",
   "languages": {
     "ar": {
-      "sha": "3bf5f7d287ee289b",
-      "keys": 349,
+      "sha": "b6765dbc92e08047",
+      "keys": 348,
       "file": "ar.json"
     },
     "be": {
-      "sha": "b80be1c3e1b6ecc2",
-      "keys": 349,
+      "sha": "7dec451f08e5890a",
+      "keys": 348,
       "file": "be.json"
     },
     "en": {
@@ -17,18 +17,18 @@
       "file": "en.json"
     },
     "fa": {
-      "sha": "0e39c8ead7fa076b",
-      "keys": 349,
+      "sha": "e00f876700ecde46",
+      "keys": 348,
       "file": "fa.json"
     },
     "ja-raw": {
-      "sha": "3418a75ca3f66593",
-      "keys": 349,
+      "sha": "9025bc74cfd554ed",
+      "keys": 348,
       "file": "ja-raw.json"
     },
     "pt-br": {
-      "sha": "52a26fd3ca65a257",
-      "keys": 349,
+      "sha": "4fd90951e2b70288",
+      "keys": 348,
       "file": "pt-br.json"
     },
     "qicui": {
@@ -37,23 +37,23 @@
       "file": "qicui.json"
     },
     "ru": {
-      "sha": "58f12443d0ff4ad7",
-      "keys": 349,
+      "sha": "60428b5bd0c6fb82",
+      "keys": 348,
       "file": "ru.json"
     },
     "uk": {
-      "sha": "febd6cf2f2c21808",
-      "keys": 349,
+      "sha": "7060f7b259ef7fff",
+      "keys": 348,
       "file": "uk.json"
     },
     "uz": {
-      "sha": "f177e33803a4d350",
-      "keys": 349,
+      "sha": "070785a3e46b20b1",
+      "keys": 348,
       "file": "uz.json"
     },
     "zh-hans-raw": {
-      "sha": "f5d380d2652c00b5",
-      "keys": 349,
+      "sha": "3c19e9ee6c482aa6",
+      "keys": 348,
       "file": "zh-hans-raw.json"
     }
   }
