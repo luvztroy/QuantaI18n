@@ -21,7 +21,7 @@ jobs:
             HEADER="🔨 [${COUNT} new commits](${COMPARE_URL}) *to ${REPO#*/}:${BRANCH}*:"
           fi
 
-          COMMITS=$(jq -r --arg repo "$REPO" '.commits | map("[\(.id[0:7])](https://github.com/\($repo)/commit/\(.id)): \(.message | split("\n")[0]) by \(.author.username // .author.name)") | join("\n\n")' "$GITHUB_EVENT_PATH")
+          COMMITS=$(jq -r --arg repo "$REPO" '.commits | map("[\(.id[0:7])](https://github.com/\($repo)/commit/\(.id)): \(.message | split("\n")[0] | gsub("(?<c>[_`*\\[])"; "\\\(.c)")) by \(.author.username // .author.name)") | join("\n\n")' "$GITHUB_EVENT_PATH")
 
           TEXT="${HEADER}%0A%0A${COMMITS}"
           RESPONSE=$(curl --retry 3 --retry-delay 5 -s -X POST \
