@@ -3,8 +3,8 @@ api_token_env: CROWDIN_TOKEN
 base_path: .
 preserve_hierarchy: 1
 files:
-  - source: /UiTweaks en.json
-    translation: /UiTweaks %two_letters_code%.json
+  - source: /en.json
+    translation: /%two_letters_code%.json
     languages_mapping:
       two_letters_code:
         pt-BR: pt-br
