@@ -1,0 +1,35 @@
+name: notify-commits
+on:
+  push:
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send commit notification to Telegram
+        run: |
+          BRANCH="${GITHUB_REF#refs/heads/}"
+          REPO="${GITHUB_REPOSITORY}"
+          BEFORE="${{ github.event.before }}"
+          AFTER="${{ github.sha }}"
+          COUNT=$(jq '.commits | length' "$GITHUB_EVENT_PATH")
+          COMPARE_URL="https://github.com/${REPO}/compare/${BEFORE:0:12}...${AFTER:0:12}"
+
+          if [ "$COUNT" -eq 1 ]; then
+            HEADER="🔨 [1 new commit](${COMPARE_URL}) *to ${REPO#*/}:${BRANCH}*:"
+          else
+            HEADER="🔨 [${COUNT} new commits](${COMPARE_URL}) *to ${REPO#*/}:${BRANCH}*:"
+          fi
+
+          COMMITS=$(jq -r --arg repo "$REPO" '.commits | map("[\(.id[0:7])](https://github.com/\($repo)/commit/\(.id)): \(.message | split("\n")[0]) by \(.author.username // .author.name)") | join("\n\n")' "$GITHUB_EVENT_PATH")
+
+          TEXT="${HEADER}%0A%0A${COMMITS}"
+          RESPONSE=$(curl --retry 3 --retry-delay 5 -s -X POST \
+            "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
+            -d "chat_id=-1004384572059" \
+            -d "message_thread_id=365" \
+            -d "parse_mode=Markdown" \
+            -d "disable_web_page_preview=true" \
+            --data-urlencode "text=$(echo -e "${TEXT//%0A/$'\n'}")")
+          echo "$RESPONSE"
+          echo "$RESPONSE" | grep -q '"ok":true' || (echo "Telegram API failed" && exit 1)
